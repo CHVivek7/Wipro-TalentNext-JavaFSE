@@ -1,0 +1,15 @@
+public class Ex_1 {
+
+    public static void main(String[] args) {
+        if (args.length != 2) {
+            System.out.println("Error: Please provide exactly two command-line arguments.");
+            System.out.println("Usage: java FormatStrings <String1> <String2>");
+            return;
+        }
+
+        String company = args[0];
+        String location = args[1];
+
+        System.out.println(company + " Technologies " + location);
+    }
+}
